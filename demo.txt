@@ -1,0 +1,37 @@
+get-date
+# Seq Utils
+
+# PBuilt-in 
+1..5
+
+# seq function
+# Upper bound 
+seq 5
+
+# Lower bound to upper bound
+seq 5 10
+
+# Lower and upper bound with increment
+seq 10 2 20
+
+# Decimals
+seq 5 .2 6.6
+
+# Padding with zeros
+seq 100 100 1000 -EqualWidth
+
+# Using separators
+seq 5 -s :
+
+# Using separators
+seq 5 -s *
+seq 5 -s * | Invoke-Expression
+
+# Format string
+seq 5 2 10 -f 'Item value: {0:c}'
+
+# Get-DateSequence
+seq 1 7 28
+
+# Just add a `d`
+dseq 1 7 28
