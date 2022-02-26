@@ -115,3 +115,20 @@ Monday, February 21, 2022
 Tuesday, February 22, 2022
 Wednesday, February 23, 2022
 ```
+
+## For Loop
+
+```powershell
+foreach($item in seq 10 2 20) {
+    "And the number is: $item"
+}
+```
+
+```
+And the number is: 10
+And the number is: 12
+And the number is: 14
+And the number is: 16
+And the number is: 18
+And the number is: 20
+```
