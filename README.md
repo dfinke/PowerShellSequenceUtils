@@ -1,14 +1,18 @@
 # PowerShell Sequence Utilities
 
+Check out the quick video of [`seq`](https://github.com/dfinke/PowerShellSequenceUtils/blob/master/Public/Get-NumberSequence.ps1#L1) and [`dseq`](https://github.com/dfinke/PowerShellSequenceUtils/blob/master/Public/Get-DateSequence.ps1#L1) in action.
+
+<a href="https://youtu.be/1_kPRZaiPTQ"><img src="https://img.youtube.com/vi/1_kPRZaiPTQ/0.jpg" width="200"></a>
+
 - Generate Sequence of Numbers - Print a sequence of numbers with specified increment or format with seq command
 - Generate Sequence of Dates
 
 ## Get-NumberSequence
 
-```powershell
+```**powershell**
 seq 3
 
-1
+1****
 2
 3
 ```
